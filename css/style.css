@@ -1,0 +1,10 @@
+#form_produto 
+{
+    position: relative;
+    float: left;
+    width: 650px;
+    padding: 20px;
+    background-image: linear-gradient(rgb(211, 211, 211), rgb(228, 228, 228));
+
+    border-radius: 20px;
+}
