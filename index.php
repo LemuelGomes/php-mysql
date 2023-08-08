@@ -78,5 +78,9 @@
 
 </div>
 
+<?php
+  include 'select.php';
+?>
+
 </body>
 </html>
