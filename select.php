@@ -1,7 +1,6 @@
 <?php
 
 // Abrindo uma Sessão
-session_start();
 
 $servidor = 'localhost';
 $usuario = 'root';
@@ -31,10 +30,10 @@ if ($resultado->num_rows > 0)
       //echo 'id: ' . $linhas["id"] . ' - Descrição: ' . $linhas["descricao"] . ' - Valor: ' . $linhas["valor"] . ' - Validade: ' . $linhas["validade"] . "<br>";
            
       echo '<tr>';
-      echo '<th scope="row">' . $linhas["id"] . '</th>';
-      echo '<td>' . $linhas["descricao"] . '</td>';
-      echo '<td>' . $linhas["valor"] . '</td>';
-      echo '<td>' . $linhas["validade"] . '</td>';
+        echo '<th scope="row">' . $linhas["id"] . '</th>';
+        echo '<td>' . $linhas["descricao"] . '</td>';
+        echo '<td>' . $linhas["valor"] . '</td>';
+        echo '<td>' . $linhas["validade"] . '</td>';
       echo '</tr>';       
     }
       echo '</tbody>';
