@@ -19,7 +19,7 @@ $codigo_produto = $_POST['campo_codprod'];
 
 $conexao = new mysqli($servidor, $usuario, $senha, $base);
 
-$sql = 'INSERT INTO tbl_produto(descricao, valor, validade, genero, tamanho, unidade, codigo_produto) VALUES ("' . $descricao . '", ' . $valor . ', "' . $validade . '", "' . $genero . '", "' . $tamanho . '", "' . $unidade . '", "' . $codigo_produto . '");';
+$sql = 'INSERT INTO tbl_produto(descricao, valor, validade, genero, tamanho, unidade) VALUES ("' . $descricao . '", ' . $valor . ', "' . $validade . '", "' . $genero . '", "' . $tamanho . '", "' . $unidade . '");';
 
 if ($conexao->query($sql)) 
 {
